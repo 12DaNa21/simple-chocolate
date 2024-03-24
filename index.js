@@ -4,7 +4,7 @@ const formContainer = document.getElementById('formContainer');
 const closeButton = document.getElementById('closeButton');
 
 function toggleMenu() {
-  var menu = document.getElementById("myDiv");
+  var menu = document.getElementById("burger-menu");
   menu.classList.toggle("show-menu");
 }
 document.querySelector('.header-menu-btn').addEventListener('click', function() {
@@ -12,7 +12,7 @@ document.querySelector('.header-menu-btn').addEventListener('click', function() 
 });
 
 function closeMenu() {
-  var menu = document.getElementById("myDiv");
+  var menu = document.getElementById("burger-menu");
   menu.classList.remove("show-menu");
 }
 
